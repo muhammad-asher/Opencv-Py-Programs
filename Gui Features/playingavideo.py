@@ -5,7 +5,7 @@ while cap.isOpened():
     ret, frame = cap.read()
     # if frame is read correctly ret is True
     if not ret:
-        print("Can't receive frame (stream end?). Exiting ...")
+        print("Can't receive frames (stream end?). Exiting ...")
         break
     gray = cv.cvtColor(frame, cv.COLOR_BGR2GRAY)
     cv.imshow('frame', gray)
