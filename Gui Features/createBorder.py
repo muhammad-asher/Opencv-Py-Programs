@@ -10,7 +10,7 @@ path = r'F:\SE-Courses\Projects\Python\Opencv-Py-Programs\Gui Features\sun.png'
 image = cv2.imread(path)
 
 # Window name in which image is displayed
-window_name = 'Image'
+window_name = 'BorderCreation'
 
 # Using cv2.copyMakeBorder() method
 image = cv2.copyMakeBorder(image, 10, 10, 10, 10, cv2.BORDER_CONSTANT)
