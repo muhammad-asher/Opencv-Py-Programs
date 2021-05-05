@@ -12,4 +12,5 @@ while cap.isOpened():
     if cv.waitKey(1) == ord('q'):
         break
 cap.release()
+# window shown waits for any key pressing event
 cv.destroyAllWindows()
