@@ -12,4 +12,5 @@ while(1):
     cv.imshow('image',img)
     if cv.waitKey(20) & 0xFF == 27:
         break
+# window shown waits for any key pressing event
 cv.destroyAllWindows()
