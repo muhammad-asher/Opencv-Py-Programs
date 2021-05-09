@@ -1,7 +1,4 @@
-# Python programe to illustrate
-# arithmetic operation of
 # addition of two images
-	
 # organizing imports
 import cv2
 import numpy as np
