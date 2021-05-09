@@ -1,4 +1,3 @@
-# Python program to explain cv2.copyMakeBorder() method
 
 # importing cv2
 import cv2
