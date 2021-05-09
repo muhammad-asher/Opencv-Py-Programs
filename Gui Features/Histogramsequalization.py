@@ -1,7 +1,5 @@
-# import Opencv
+# import libraries
 import cv2
-
-# import Numpy
 import numpy as np
 
 # read a image using imread
